@@ -1,18 +1,16 @@
 [app]
-title = Ali Alqurmi App
-package.name = alialqurmi
-package.domain = org.test
+title = تطبيق علي القورمي
+package.name = alialqurmiapp
+package.domain = com.alialqurmi
 source.dir =.
-source.include_exts = py,png,jpg,kv,atlas
-version = 0.1
+source.include_exts = py,png,jpg,kv,atlas,ttf
+version = 1.0.0
 requirements = python3,kivy
 orientation = portrait
 fullscreen = 0
-
-[buildozer]
-log_level = 2
-
-[android]
 android.permissions = INTERNET
 android.api = 33
 android.minapi = 21
+
+[buildozer]
+log_level = 2
