@@ -1,8 +1,13 @@
 from kivy.app import App
 from kivy.uix.label import Label
 
-class AliApp(App):
+class AlQurmiApp(App):
     def build(self):
-        return Label(text='أهلاً يا علي من الضالع 🇾🇪\nتطبيقك الأول شغال 100%')
+        return Label(
+             text='تطبيق علي القورمي\nجاهز للنشر'
+            font_size='32sp',
+            halign='center'
+        )
 
-AliApp().run()
+if __name__ == '__main__':
+    AlQurmiApp().run()
